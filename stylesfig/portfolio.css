@@ -231,7 +231,6 @@ nav .menu a{
     margin-bottom: 10px;
     color: #757575;
     margin-bottom: 20px;
-    margin-right: 202px;
 }
 .resume-card .card-text{
     font-size: 16px;
@@ -241,4 +240,55 @@ nav .menu a{
 
 .resume-container hr{
     margin: 30px 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container{
+    width: 59%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+footer .social{
+    max-width: 562px;
+}
+
+.footer-container h2{
+    max-width: 227px;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.footer-container .social p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"], .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+    color: #757575;
 }
